@@ -207,7 +207,7 @@ class Game extends React.Component {
 
                 <div className="controls">
                     <div>
-                        Update every{" "}
+                        Update board every{" "}
                         <input
                             id="ref-input"
                             value={this.state.interval}
@@ -227,7 +227,7 @@ class Game extends React.Component {
                             </button>
                         )}
                         <button className="button" onClick={this.handleRandom}>
-                            Random
+                            Randomize
                         </button>
                         <button className="button" onClick={this.handleClear}>
                             Clear
