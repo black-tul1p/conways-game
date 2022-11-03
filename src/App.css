@@ -1,5 +1,18 @@
+:root {
+  --width: 800px;
+  --height: 700px;
+  --border-rad: 20px;
+  --main-bgcolor: #6c3e8d;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--main-bgcolor);
 }
 
 .Board {
@@ -7,4 +20,59 @@
   margin: 0 auto;
   background-color: #000;
   background-image: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px);
+  border-radius: var(--border-rad);
+}
+
+.Cell {
+  background: #ccc;
+  position: absolute;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 1em;
+  width: calc(var(--width)-50);
+  border-radius: var(--border-rad);
+}
+
+.button {
+  margin: 0 12px 0;
+  padding: 10px;
+  cursor: pointer;
+  background: black;
+  color: white;
+  font-weight: bold;
+  border-radius: var(--border-rad);
+  border-width: 0px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+#ref-input {
+  border-radius: var(--border-rad);
+  border-width: 0px;
+  width: 10%;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.vl {
+  border-left: 1px solid var(--main-bgcolor);
+  height: 40px;
+  left: 50%;
+  top: 0;
+}
+
+h1 {
+  color: white;
 }
