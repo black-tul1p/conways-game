@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Conway-React/static/css/main.eef8d684.css",
+    "main.js": "/Conway-React/static/js/main.ceceeaf5.js",
+    "static/js/787.db938f3d.chunk.js": "/Conway-React/static/js/787.db938f3d.chunk.js",
+    "index.html": "/Conway-React/index.html",
+    "main.eef8d684.css.map": "/Conway-React/static/css/main.eef8d684.css.map",
+    "main.ceceeaf5.js.map": "/Conway-React/static/js/main.ceceeaf5.js.map",
+    "787.db938f3d.chunk.js.map": "/Conway-React/static/js/787.db938f3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef8d684.css",
+    "static/js/main.ceceeaf5.js"
+  ]
+}
